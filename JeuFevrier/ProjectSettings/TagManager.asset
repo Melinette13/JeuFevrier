@@ -8,6 +8,7 @@ TagManager:
   - sol
   - door
   - sac
+  - reset
   layers:
   - Default
   - TransparentFX

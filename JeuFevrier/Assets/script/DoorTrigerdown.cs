@@ -6,8 +6,24 @@ public class DoorTrigerdown : MonoBehaviour
 {
     public GameObject door;
     public float down = -1f;
-  void OnTriggerEnter(Collider collider)
+    public Animator animator;
+    public AudioClip Clic;
+    AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+    void OnTriggerEnter(Collider collider)
     {
         door.transform.position += new Vector3(0, down , 0);
+        GetComponent<Animator>().SetBool("clicon", true);
+        audioSource.PlayOneShot(Clic,1f);
+
     }
+    void OnTriggerExit(Collider collider)
+    {;
+        GetComponent<Animator>().SetBool("clicon", false);
+    }
+
 }
