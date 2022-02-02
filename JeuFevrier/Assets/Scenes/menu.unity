@@ -425,6 +425,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 885178414}
   - {fileID: 2020322245}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -898,6 +899,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1715908512023546247, guid: 47e04e03ab3c8204aa7d921f50b3af84, type: 3}
   m_PrefabInstance: {fileID: 856433984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &885178413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885178414}
+  - component: {fileID: 885178416}
+  - component: {fileID: 885178415}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &885178414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885178413}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6924, y: 1.6924, z: 1.6924}
+  m_Children: []
+  m_Father: {fileID: 310669510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.26832354, y: 0.3637114}
+  m_AnchorMax: {x: 0.72926474, y: 0.762}
+  m_AnchoredPosition: {x: -7, y: -4}
+  m_SizeDelta: {x: -14, y: -104.07471}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &885178415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885178413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5ecbb3a96ed9ee54883bbb97ce481ae1, type: 3}
+    m_FontSize: 64
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 140
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Journey of \nbaby wolf "
+--- !u!222 &885178416
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885178413}
+  m_CullTransparentMesh: 1
 --- !u!1 &887527293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,12 +1664,12 @@ RectTransform:
   m_Children:
   - {fileID: 2091747260}
   m_Father: {fileID: 310669510}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.349, y: 0.263}
-  m_AnchorMax: {x: 0.65000004, y: 0.37100002}
-  m_AnchoredPosition: {x: 1.5, y: 0}
-  m_SizeDelta: {x: -251, y: -44}
+  m_AnchorMin: {x: 0.30058825, y: 0.24988051}
+  m_AnchorMax: {x: 0.694, y: 0.37537318}
+  m_AnchoredPosition: {x: 4.5, y: 3}
+  m_SizeDelta: {x: -377, y: -56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020322246
 MonoBehaviour:
