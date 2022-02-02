@@ -12,7 +12,7 @@ public class MenuDemarage : MonoBehaviour
     void Start()
     {
         start.GetComponent<Button>().onClick.AddListener(StartGame);
-        //quit.GetComponent<Button>().onClick.AddListener(QuitGame);//
+        
     }
     public void StartGame()
     {
@@ -20,9 +20,5 @@ public class MenuDemarage : MonoBehaviour
         SceneManager.LoadScene(1);
 
     }
-    //public void QuitGame()//
-   // {//
-       // Application.Quit();//
-
-    //}//
+    
 }

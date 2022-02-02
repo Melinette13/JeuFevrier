@@ -43,7 +43,7 @@ public class MenuRest : MonoBehaviour
 
     }
     public void QuitGame()
-     {
+    {
      Application.Quit();
 
     }
